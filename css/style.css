@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, aqua,pink)
+}
+.container {
+    margin: 2rem;
+    border: 2px solid black;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.item {
+    background-color: rgba(105, 0, 243, 0.432);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic, bold;
+    color: green;
+}
+.item5 {
+    background-color: orangered;
+    font-style: italic;
+    grid-row: 2 / -2;
+    /*grid-column: span 3;
+    grid-row: span 5;*/
+}
